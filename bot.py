@@ -22,7 +22,7 @@ def testfunction2(update:Update,context:CallbackContext):
         )
         
 dispatcher = updater.dispatcher
-start_value1 = CommandHandler('motion4',testfunction2)
+start_value1 = CommandHandler('hellow',testfunction2)
 dispatcher.add_handler(start_value1)
 
 updater.start_polling()
